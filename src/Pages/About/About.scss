@@ -1,0 +1,21 @@
+.about {
+  background-color: #f0f0f0;
+  padding: 4rem;
+}
+.about-content {
+  grid-column: 2/-2;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d23e3e;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+}

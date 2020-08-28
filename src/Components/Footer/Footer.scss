@@ -1,0 +1,14 @@
+footer {
+  background-color: #f8f8f8;
+}
+.footer-content {
+  grid-column: 2/-2;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 100;
+  }
+}

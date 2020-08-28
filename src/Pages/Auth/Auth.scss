@@ -1,0 +1,36 @@
+.auth {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./media/authbg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.auth-content {
+  grid-column: 2/-2;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  .text {
+    font-size: 1rem;
+    margin-top: 5rem;
+    padding: 0 2rem;
+    h1 {
+      font-size: 3em;
+      color: #d23e3e;
+      font-weight: 100;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.4em;
+      font-weight: 100;
+      color: white;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: white;
+    }
+  }
+}

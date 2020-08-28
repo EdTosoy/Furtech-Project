@@ -1,0 +1,41 @@
+.get-in-touch {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  form {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    input {
+      flex-grow: 1;
+      padding: 5px;
+    }
+    button {
+      background-color: white;
+      padding: 2px 1rem;
+    }
+  }
+  .get-in-touch-info {
+    display: flex;
+  }
+  .social,
+  .contacts {
+    width: 50%;
+    h2 {
+      margin-bottom: 0.5rem;
+    }
+  }
+  ion-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+    &:hover {
+      color: #d23e3e;
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+    }
+  }
+}

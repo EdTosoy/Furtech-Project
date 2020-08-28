@@ -1,0 +1,23 @@
+.category-nav {
+  height: 300px;
+  padding: 1rem;
+  background-color: white;
+  position: sticky;
+  top: 120px;
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  li {
+    margin: 1rem;
+    font-size: 1.4rem;
+    &:hover {
+      color: #d23e3e;
+    }
+  }
+  .selected {
+    color: #d23e3e;
+  }
+}

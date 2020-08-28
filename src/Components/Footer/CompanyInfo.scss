@@ -1,0 +1,12 @@
+.company-info {
+  max-width: 395px;
+  font-size: 1rem;
+  .logo img {
+    position: static;
+  }
+  .company {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+}

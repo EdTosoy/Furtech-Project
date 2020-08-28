@@ -1,0 +1,21 @@
+#partners {
+  padding: 1rem;
+}
+.partners-content {
+  grid-column: 2/-2;
+  display: flex;
+  justify-content: space-evenly;
+  .partners-logo {
+    width: 200px;
+    height: 200px;
+  }
+  img {
+    height: 100%;
+    opacity: 0.4;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+}

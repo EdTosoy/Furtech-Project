@@ -1,0 +1,65 @@
+.sign-in-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  font-size: 1.4rem;
+
+  h2 {
+    font-weight: 100;
+  }
+  form {
+    margin: 2rem 0;
+    * {
+      margin: 0.5em 0;
+    }
+  }
+  input {
+    width: 100%;
+    font-size: 1em;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    &:focus {
+      border: 1px solid #d23e3e;
+    }
+  }
+  button {
+    width: 100%;
+    font-size: 1em;
+    padding: 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: white;
+  }
+  .auth-btn {
+    background-color: #d23e3e;
+    &:active {
+      background-color: darken($color: #d23e3e, $amount: 20);
+    }
+  }
+  .google-btn {
+    background-color: #a4becd;
+    &:active {
+      background-color: darken($color: #a4becd, $amount: 50);
+    }
+  }
+  p {
+    margin-top: 2rem;
+    font-size: 0.8em;
+    text-align: center;
+  }
+  em {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,63 @@
+#collection {
+  background-color: #f0f0f0;
+}
+.collection-content {
+  grid-column: 2/-2;
+  padding: 4rem 0;
+
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+  }
+
+  figure {
+    margin: 0 2rem;
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    border: 5px solid #c4c4c4;
+    box-shadow: 0 3px 1px -1px black;
+    overflow: hidden;
+
+    a {
+      border: 5px solid #c4c4c4;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      &:hover {
+        border: 5px solid gray;
+      }
+    }
+  }
+
+  .table {
+    background-image: url("./media/table.jpg");
+  }
+  .light {
+    background-image: url("./media/light.jpg");
+  }
+  .chair {
+    background-image: url("./media/chair.jpg");
+  }
+  .table,
+  .light {
+    grid-column: 2/-1;
+    height: 100%;
+    padding: 0 1rem;
+    img {
+      width: 50%;
+      height: 100%;
+    }
+  }
+  .chair {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+    overflow: hidden;
+    img {
+      height: 100%;
+    }
+  }
+}

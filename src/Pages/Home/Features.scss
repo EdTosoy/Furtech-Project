@@ -1,0 +1,16 @@
+.features-content {
+  grid-column: 2/-2 !important;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+
+  .feature {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon {
+    width: 70px;
+    margin-right: 1rem;
+  }
+}

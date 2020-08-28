@@ -1,0 +1,31 @@
+header,
+footer,
+.hero,
+.features,
+#collection,
+#partners,
+.hero,
+.auth,
+.shopping-showcase,
+.about {
+  display: grid;
+  grid-template-columns:
+    minmax(1rem, 1fr)
+    minmax(1rem, 1024px)
+    minmax(1rem, 1fr);
+}
+
+/* just for scroll animations */
+[data-scroll] {
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+}
+[data-scroll="out"] {
+  opacity: 0;
+}

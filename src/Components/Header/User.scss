@@ -1,0 +1,12 @@
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  li {
+    width: 2.5rem;
+    margin-top: 5px;
+    &:last-child {
+      margin-left: 1rem;
+    }
+  }
+}

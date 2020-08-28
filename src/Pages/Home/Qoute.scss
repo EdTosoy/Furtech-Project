@@ -1,0 +1,27 @@
+.qoute-content {
+  grid-column: 2/-2;
+  padding: 5rem 0 3rem 0;
+  position: relative;
+  * {
+    text-align: center;
+  }
+  img {
+    position: absolute;
+    width: 2rem;
+    top: 2rem;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+  }
+  h1 {
+    font-size: 2.5rem;
+    color: #d23e3e;
+    font-weight: 100;
+  }
+  p {
+    margin-top: 1rem;
+  }
+}

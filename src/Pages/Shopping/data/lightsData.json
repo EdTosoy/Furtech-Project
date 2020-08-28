@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "Orwell",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FOrwell_3x3.jpg?alt=media&token=1fa13b67-8819-42bb-90a9-948a56e0a251",
+    "price": "68"
+  },
+  {
+    "id": 2,
+    "name": "Hopkins 30cm Black",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FHopkins_30cm_Black_3x3.jpg?alt=media&token=0937ecf2-a777-4810-80cd-cfd1581df6de",
+    "price": "80"
+  },
+  {
+    "id": 3,
+    "name": "Blake I",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FBlake_I_3x3.jpg?alt=media&token=87785e04-c6cd-4996-a602-05be28783630",
+    "price": "73"
+  },
+  {
+    "id": 4,
+    "name": "Blake II",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FBlake_II_3x3.jpg?alt=media&token=cd8a6ea3-ffc7-4ba4-93c8-dae023ad128c",
+    "price": "59"
+  },
+  {
+    "id": 5,
+    "name": "Harwich Nickel Coastal",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FHarwich%20Nickel%20Coastal%20Pendant.jpg?alt=media&token=8d934ad7-fe1a-4946-b58f-5f714f107879",
+    "price": "130"
+  },
+  {
+    "id": 6,
+    "name": "Oldage Pendant black",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FOldage%20Pendant%20Matte-black.jpg?alt=media&token=c27a1bb0-bb33-4a98-80cc-389130e1d5bf",
+    "price": "90"
+  },
+  {
+    "id": 7,
+    "name": "Bowery",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FBowery%20Indoor%20Outdoor%20Light.jpg?alt=media&token=6e38eee5-48ec-4d77-a23b-8fd6ee34aad4",
+    "price": "69"
+  },
+  {
+    "id": 8,
+    "name": "Miles Nautical",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FMiles%20Nautical%20Pendant.jpg?alt=media&token=2f2381d5-7003-4607-947c-b1be1d9fba25",
+    "price": "99"
+  },
+  {
+    "id": 9,
+    "name": "Brightech Ambience",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FBrightech%20Ambience.jpg?alt=media&token=78c8aea6-5688-4d13-8200-07af42fde81a",
+    "price": "87"
+  },
+  {
+    "id": 10,
+    "name": "Cove nect",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FCove%20nect%20outdoor.jpg?alt=media&token=6f18561c-b5c1-4835-887d-d79a82029a83",
+    "price": "67"
+  },
+  {
+    "id": 11,
+    "name": "Nuvo adams",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FNuvo%20adams.jpg?alt=media&token=debd7a66-8e7e-4d09-8e5d-ecfdbef98188",
+    "price": "91"
+  },
+  {
+    "id": 12,
+    "name": "Oldage Bam",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FOldage%20Bam.jpg?alt=media&token=227f0ccd-7189-498f-b6b3-24ed55e22251",
+    "price": "60"
+  },
+  {
+    "id": 13,
+    "name": "Gibbes Steet",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FGibbes%20Steet.jpg?alt=media&token=c0d62d80-271e-4c5a-96b0-16c76ba98de2",
+    "price": "98"
+  },
+  {
+    "id": 14,
+    "name": "U-light",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2Flight.jpg?alt=media&token=fb948af7-6847-425b-8978-943a88fe3427",
+    "price": "76"
+  },
+  {
+    "id": 15,
+    "name": "Harrison pendant",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FHarrison%20pendant.jpg?alt=media&token=08b8a19d-a955-4aa3-895b-c6a2386a4a82",
+    "price": "57"
+  },
+  {
+    "id": 16,
+    "name": "Fiess Black",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FFiess%20Black.jpg?alt=media&token=bda94578-cb3b-424d-8087-db6f58cdd29d",
+    "price": "69"
+  },
+  {
+    "id": 17,
+    "name": "Harwich black",
+    "url": "https://firebasestorage.googleapis.com/v0/b/furtech-5bc7c.appspot.com/o/lights%2FHarwich%20black%20coastal.jpg?alt=media&token=33d25943-dae0-47a8-8bce-0aacfcb4c093",
+    "price": "80"
+  }
+]

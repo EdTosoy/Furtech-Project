@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+
+  li {
+    margin: 1.5rem;
+  }
+  .selected {
+    color: #d23e3e;
+    &::after {
+      content: "";
+      width: 5px;
+      height: 5px;
+      display: block;
+      margin: 5px auto 0 auto;
+      background-color: #d23e3e;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+}

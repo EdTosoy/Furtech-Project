@@ -1,0 +1,54 @@
+.hero {
+  height: 80vh;
+  background-image: url("./media/background1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: background 30s infinite;
+  -webkit-animation: background 30s infinite;
+}
+.hero-content {
+  grid-column: 2/-2;
+  margin-top: 2rem;
+  padding: 2rem 1rem;
+  width: 385px;
+  height: 200px;
+  background-color: rgba($color: white, $alpha: 0.5);
+  backdrop-filter: blur(5px);
+  font-size: 1.6rem;
+
+  a {
+    display: block;
+    font-size: 1.5rem;
+    color: #d23e3e;
+    margin-top: 2rem;
+  }
+}
+
+@keyframes background {
+  5% {
+    background-image: url("./media/background1.jpg");
+  }
+  25% {
+    background-image: url("./media/background1.jpg");
+  }
+  30% {
+    background-image: url("./media/background2.jpg");
+  }
+  50% {
+    background-image: url("./media/background2.jpg");
+  }
+  55% {
+    background-image: url("./media/background3.jpg");
+  }
+  75% {
+    background-image: url("./media/background3.jpg");
+  }
+  80% {
+    background-image: url("./media/background4.jpg");
+  }
+  100% {
+    background-image: url("./media/background4.jpg");
+  }
+}
