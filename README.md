@@ -1,20 +1,19 @@
 <h1 align="center">
-  JINADA 
+  Furtech 
   
 </h1>
 <p align="center">
-  A Total Logistics Website for Total Logistics Company,
-  This Project helps the users to track, Contact, and see Shipping Rates in JINADA's services. It is
-  build with React.js, React Router, SCSS(CSS), Webpack as bundler.
+Good Looking Minimalist Furniture E-commerce website, for Furtech Furniture, Inc. the go-to place for exceptional restaurant and retail furniture. It is built with React.js, React Router, SCSS(CSS), Firebase as Back-End, Webpack as bundler.
 </p>
 
-![demo](https://raw.githubusercontent.com/EdTosoy/Jinada-Project/Demo.png)
+![demo](https://github.com/EdTosoy/Furtech-Project/blob/master/Demo.png?raw=true)
 
 ## Built With
 
 - React.js
 - React Router Dom
 - SCSS(CSS)
+- Firebase
 - Webpack
 
 ## Installation & Setup
@@ -22,7 +21,7 @@
 1. Clone the Repository
 
    ```sh
-   git clone git@github.com:EdTosoy/Jinada-Project.git
+   git clone git@github.com:EdTosoy/Furtech-Project.git
    ```
 
 2. Install node modules and Dependencies
@@ -37,7 +36,7 @@
    yarn install
    ```
 
-3. Start the Parcel Development Server
+3. Start the Development Server
 
    ```sh
    npm start
@@ -70,5 +69,5 @@
 
 ## Screen Shots
 
-![demo](https://raw.githubusercontent.com/EdTosoy/Jinada-Project/ScreenShot1.png)
-![demo](https://raw.githubusercontent.com/EdTosoy/Jinada-Project/ScreenShot2.png)
+![demo](https://github.com/EdTosoy/Furtech-Project/blob/master/ScreenShot1.png?raw=true)
+![demo](https://github.com/EdTosoy/Furtech-Project/blob/master/ScreenShot2.png?raw=true)
