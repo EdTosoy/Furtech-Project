@@ -5,7 +5,9 @@ import "./Logo.scss";
 export default function Logo() {
   return (
     <div className="logo">
-      <img src={logo} alt="logo" />
+      <a href="/">
+        <img src={logo} alt="logo" />
+      </a>
     </div>
   );
 }

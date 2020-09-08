@@ -3,6 +3,8 @@
 
   li {
     margin: 1.5rem;
+    display: grid;
+    place-items: top;
   }
   .selected {
     color: #d23e3e;
@@ -18,6 +20,33 @@
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
+    }
+  }
+}
+.drop-down {
+  display: none;
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  .menu-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0.3rem;
+  }
+  li {
+    font-size: 1.2em;
+    margin: 0.7rem 1rem;
+    display: grid;
+    place-items: top;
+    &:hover {
+      color: #d23e3e;
     }
   }
 }

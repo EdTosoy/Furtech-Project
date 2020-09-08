@@ -1,0 +1,117 @@
+@media (max-width: 850px) {
+  .navigation li {
+    margin: 0.5rem !important;
+  }
+  .shopping-showcase-content,
+  .main-showcase {
+    gap: 1rem !important;
+  }
+  .auth-content .text {
+    width: 50% !important;
+  }
+  .sign-in-content {
+    padding: 1rem !important;
+  }
+}
+@media (max-width: 750px) {
+  .navigation {
+    display: none !important;
+  }
+  .drop-down-btn {
+    display: block !important;
+  }
+  .features-content {
+    flex-direction: column !important;
+    align-items: center !important;
+
+    .feature {
+      width: 70% !important;
+      justify-content: space-between !important;
+      margin: 1rem 0;
+      img {
+        width: 100px;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .collection-content figure {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 200px 200px 200px !important;
+  }
+  .chair {
+    grid-row: 1/2 !important;
+  }
+  .chair,
+  .table,
+  .light {
+    grid-column: 1/-1 !important;
+    img {
+      height: 100% !important;
+    }
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .get-in-touch,
+  .company-info {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
+@media (max-width: 650px) {
+  .auth-content .text,
+  .category-nav {
+    display: none !important;
+  }
+  .shopping-showcase-content {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media (max-width: 500px) {
+  .hero-content {
+    width: 100% !important;
+  }
+  .main-showcase {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .shopping-hero-content {
+    width: 100% !important;
+  }
+}
+@media (max-width: 400px) {
+  .main-showcase {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .features-content {
+    flex-direction: column !important;
+    align-items: center !important;
+    .qoute-content h1 {
+      font-size: 1.2rem !important;
+    }
+    .feature {
+      width: 80% !important;
+      justify-content: space-between !important;
+      margin: 1rem 0;
+      img {
+        width: 70px;
+      }
+      h2 {
+        font-size: 1.4rem !important;
+        text-align: right;
+      }
+      p {
+        font-size: 1rem !important;
+        text-align: right;
+      }
+    }
+  }
+  .auth-content {
+    padding: 1rem !important;
+  }
+}

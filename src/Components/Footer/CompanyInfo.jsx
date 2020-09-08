@@ -7,7 +7,7 @@ export default function CompanyInfo() {
     <div className="company-info">
       <div className="company">
         <Logo />
-        <h1>Furtect Corporation</h1>
+        <h1>Furtech Corporation</h1>
       </div>
       <p>
         Furtech is an affiliate of Magento Office Furniture, Inc. Magento

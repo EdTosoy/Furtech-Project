@@ -7,6 +7,12 @@
     margin-top: 5px;
     &:last-child {
       margin-left: 1rem;
+      display: none;
     }
+    margin-left: 0.5rem;
+  }
+  ion-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
   }
 }
